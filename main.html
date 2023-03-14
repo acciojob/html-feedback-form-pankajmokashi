@@ -11,13 +11,11 @@
 
 	<form>
 		<label for="name">Name:</label>
-		<input type="text" id="name" name="name" min="3" max="50"><br><br>
+		<input type="text" id="name" name="name" min="3" max="50" required><br><br>
 
 		<label for="portfolio">Portfolio Link:</label>
 		<input type="url" name="portfolio" id="portfolio"
-	       placeholder="https://example.com"
-	       pattern="https://.*" size="30"
-	       required><br><br>
+	       placeholder="https://example.com" required><br><br>
 
 		<label for="favColor">Choose Favorite Colour:</label>
 		<select name="favColor" id="favColor">
@@ -29,7 +27,8 @@
 
 		<label for="likeness">How much you like the colour(1 to 100):</label>
 		<input type="range" id="likeness" name="likeness" min="1" max="100"><br><br>
-		
+
+		<input type="submit">
 		
 	</form>
 	
