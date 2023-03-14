@@ -9,9 +9,9 @@
 <body>
 	<h1>Feedback Form</h1>
 
-	<form>
+	<form method="post">
 		<label for="name">Name:</label>
-		<input type="text" id="name" name="name" min="3" max="50" required><br><br>
+		<input type="text" id="name" name="name" minlength="3" maxlength="50" required><br><br>
 
 		<label for="portfolio">Portfolio Link:</label>
 		<input type="url" name="portfolio" id="portfolio"
@@ -26,7 +26,7 @@
 		</select><br><br>
 
 		<label for="likeness">How much you like the colour(1 to 100):</label>
-		<input type="range" id="likeness" name="likeness" min="1" max="100"><br><br>
+		<input type="range" id="likeness" name="likeness" minlength="1" maxlength="100"><br><br>
 
 		<input type="submit">
 		
